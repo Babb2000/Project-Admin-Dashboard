@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Mulish', sans-serif;
+    color: white;
 }
 
 body{
@@ -12,7 +12,8 @@ body{
 }
 
 :root{
-    --main-sideBar-color: #1992d4;
+    --main-sideBar-color: #1f2937; /*Sidebar background and buttons color*/
+
 }
 
 
@@ -32,4 +33,20 @@ body{
     background-color: #f1f5f9;
     height: 100vh;
     width: 100vw;
+}
+
+.header-flex{
+    display: flex;
+    padding: 15px;
+    font-family: 'Eczar', serif;
+    justify-content: space-around;
+}
+
+#font-size{
+    font-size: 20px;
+}
+
+img[src="food-delivery-app-phone-smartphone-pngrepo-com.png"]{
+    height: 50px;
+    width: 50px;
 }
