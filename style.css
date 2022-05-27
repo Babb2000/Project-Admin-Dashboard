@@ -20,7 +20,7 @@ body{
 .first-container{
     height: 100%;
     width: 100%;
-    display: flex
+    display: flex;
 }
 
 .sideBar-container{
@@ -37,7 +37,6 @@ body{
 
 .header-flex{
     display: flex;
-    padding: 15px;
     font-family: 'Eczar', serif;
     justify-content: space-around;
 }
@@ -46,7 +45,9 @@ body{
     font-size: 20px;
 }
 
-img[src="food-delivery-app-phone-smartphone-pngrepo-com.png"]{
-    height: 50px;
-    width: 50px;
+img[src="Hottest Hotspots.png"]{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -35px;
 }
