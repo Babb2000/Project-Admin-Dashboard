@@ -16,7 +16,6 @@ body{
 
 }
 
-
 .first-container{
     height: 100%;
     width: 100%;
@@ -42,6 +41,7 @@ body{
     font-family: 'Eczar', serif;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .flex-container{
@@ -51,15 +51,27 @@ body{
 }
 
 #font-size{
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     left: 5px;
 }
 
-#pFont_size{
-    font-size: 12px;
+
+
+.links{
+    font-size: 20px;
 }
 
-img[src="Home_20by20.png"]:hover{
-    color: white;
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.link-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
