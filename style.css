@@ -27,6 +27,7 @@ body{
     background-color: var(--main-sideBar-color);
     height: 100vh;
     width: 20vw;
+    padding: 8px;
 }
 
 .mainSection-container{
@@ -36,8 +37,15 @@ body{
 }
 
 .header-flex{
+    padding: 5px;
     display: flex;
     font-family: 'Eczar', serif;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -45,10 +53,13 @@ body{
 #font-size{
     font-size: 20px;
     position: relative;
-    left: -25px;
+    left: 5px;
 }
 
-img[src="Home (200 × 200 px) (1).png"]{
-    height: 150px;
-    width: 150px;
+#pFont_size{
+    font-size: 12px;
+}
+
+img[src="Home_20by20.png"]:hover{
+    color: white;
 }
