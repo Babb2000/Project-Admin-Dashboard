@@ -68,10 +68,11 @@ a{
 
 ul{
     list-style-type: none;
+
 }
 
-.link-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+li{
+    display: grid;
+    grid-template-columns: 35px 35px;
+    column-gap: 5px;
 }
