@@ -66,13 +66,18 @@ a{
     text-decoration: none;
 }
 
+
+a:hover{
+    font-size: 23px;
+    font-weight: 700;
+    text-shadow: 2px 2px silver;
+}
+
 ul{
     list-style-type: none;
-
-}
-
-li{
     display: grid;
     grid-template-columns: 35px 35px;
-    column-gap: 5px;
+    gap: 25px;
+    padding: 25px;
 }
+
