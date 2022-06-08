@@ -18,14 +18,14 @@ body{
 
 .first-container{
     height: 748px;
-    width: 100%;
+    width: 1186px;
     display: flex;
 }
 
 .sideBar-container{
     background-color: var(--main-sideBar-color);
-    height: 100vh;
-    width: 20vw;
+    height: 748px;
+    width: 300px;
     padding: 8px;
 }
 
@@ -71,6 +71,8 @@ a:hover{
     text-decoration: underline;
     font-weight: 700;
     text-shadow: 2px 2px silver;
+    position: relative;
+    left: 3px;
 }
 
 ul{
@@ -91,12 +93,11 @@ ul{
    padding: 0.5rem;
    border-radius: 0.5rem;
    box-shadow: 0.25rem 0.25rem 0.5rem #cbd5e1;
+   margin-left: 30px;
 
 }
 
 input[type=search]{
-    margin-left: 4px;
-    margin-right: 4px;
     border: none;
     outline: none;
     background-color: #d4d4d8;
@@ -106,5 +107,38 @@ input[type=search]{
 
 ::placeholder{
     color: white;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: #d4d4d8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbd5e1;
+}
+
+.searchFlex{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.margin
+{
+    margin-top: 8px;
+}
+
+.noWrap{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap;
+ 
 }
 
