@@ -17,7 +17,7 @@ body{
 }
 
 .first-container{
-    height: 748px;
+    height: 768px;
     width: 1186px;
     display: flex;
 }
@@ -196,7 +196,6 @@ input[type=search]{
     border: 1px solid black;
     height: 610px;
     width: 1170px;
-    margin: 0.5rem;
 }
 
 .title{
@@ -206,11 +205,10 @@ input[type=search]{
 .maps{
     height: 580px;
     width: 700px;
-    border: 1px solid black;
     padding: 14px;
 
     display: grid;
-    grid-template-columns: 330px 330px;
+    grid-template-columns: 330px 330px 330px;
     column-gap: 14px;
 }
 
@@ -222,3 +220,31 @@ input[type=search]{
     background-color: #e2e8f0;
 
 }
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.titleFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divMaps1{
+    height: 354px;
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbd5e1;
+    border-radius: 5px;
+    background-color: #e2e8f0;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.divMaps2{
+    height: 170px;
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbd5e1;
+    border-radius: 5px;
+    background-color: #e2e8f0;
+}
+
