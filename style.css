@@ -198,3 +198,27 @@ input[type=search]{
     width: 1170px;
     margin: 0.5rem;
 }
+
+.title{
+    margin-left: 8px;
+}
+
+.maps{
+    height: 580px;
+    width: 700px;
+    border: 1px solid black;
+    padding: 14px;
+
+    display: grid;
+    grid-template-columns: 330px 330px;
+    column-gap: 14px;
+}
+
+.divMaps{
+    width: 330px;
+    height: 170px;
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbd5e1;
+    border-radius: 5px;
+    background-color: #e2e8f0;
+
+}
