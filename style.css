@@ -17,7 +17,7 @@ body{
 }
 
 .first-container{
-    height: 100%;
+    height: 748px;
     width: 100%;
     display: flex;
 }
@@ -68,7 +68,7 @@ a{
 
 
 a:hover{
-    font-size: 23px;
+    text-decoration: underline;
     font-weight: 700;
     text-shadow: 2px 2px silver;
 }
@@ -79,5 +79,32 @@ ul{
     grid-template-columns: 35px 35px;
     gap: 25px;
     padding: 25px;
+}
+
+.Wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 21px;
+   background-color: #d4d4d8;
+   margin: 0.5rem;
+   padding: 0.5rem;
+   border-radius: 0.5rem;
+   box-shadow: 0.25rem 0.25rem 0.5rem #cbd5e1;
+
+}
+
+input[type=search]{
+    margin-left: 4px;
+    margin-right: 4px;
+    border: none;
+    outline: none;
+    background-color: #d4d4d8;
+    color: black;
+
+}
+
+::placeholder{
+    color: white;
 }
 
