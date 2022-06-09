@@ -192,7 +192,7 @@ input[type=search]{
 }
 
 .hotSpotSection{
-    border: 1px solid black;
+    border-top: 1px solid black;
     height: 612px;
     width: 1190px;
 }
@@ -253,9 +253,6 @@ iframe{
     border-radius: 5px;
     background-color: #e2e8f0;
     margin-left: 80px;
-
-    display: flex;
-    justify-content: center;
 }
 
 #headerCC{
@@ -308,4 +305,22 @@ iframe{
     font-size: 25px;
     font-weight: 900;
 
+}
+
+#headerCCC{
+    color: #27272a;
+    font-size: 14px;
+    font-weight: 900;
+    white-space: nowrap;
+    text-shadow: 0.5px 0.5px silver;
+    padding: 4px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-left: 80px;
+}
+
+.stats{
+    font-size: 12px;
+    font-weight: 900;
+    color: #334155;
 }
