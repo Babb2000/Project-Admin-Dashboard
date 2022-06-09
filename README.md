@@ -5,7 +5,7 @@ TakeAways:
 ---
 1. This dashboard page was inspiried by this set up by the Odin Project
 
-![Odin Project Dashboard Picture](Side-Bar Images/dashboard-project.png)
+![Odin Project Dashboard Picture](Side-BarImages/dashboard-project.png)
 
 
 2.
